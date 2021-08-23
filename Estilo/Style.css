@@ -1,0 +1,137 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+/* RESET  */
+.fundo{
+    background-color: rgb(209, 203, 203) ;
+    background-image: linear-gradient(to bottom, rgb(169, 170, 172),rgb(45, 46, 48));
+}
+.cabecalho{
+    width: 100%;
+    height: 200px;
+    float: center;
+    padding: 0 8%;
+    background-color: #131313;
+
+}
+.cabecalho a img{
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+}
+/* MENU  */
+.menu{
+    background-color: initial;
+    float: center;
+    padding-top: 20px;
+}
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    margin: 30px 10px;
+    font-size: 18px;
+}
+.menu li a {
+    color: #fff;
+    padding: 5px;
+}
+.menu li a:hover{
+    color:rgb(80, 93, 105) ;
+}
+/* TEXTO  */
+.texto{
+    text-align: center;
+    text-align: justify;
+}
+.Titulo{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Titulo2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.imagens{
+    width: 50%;
+    display: inline-block;
+    margin: 40px 0px 40px 400px;
+    border: 5px solid rgb(5, 5, 5);
+}
+.botao{
+    margin: 40px 0px 40px 730px;
+    width: 5%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.imagens2{
+    display: inline-block;
+    width: 30%;
+    margin: 40px 0px 40px 540px;;
+}
+.texto2{
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .botao{
+        margin: 0px;
+    }
+    .imagens{
+        margin: 0px;
+    }
+    .cabecalho a img{
+        width: 100px;
+    }
+    .cabecalho{
+        height: inherit;
+    }
+    .menu{
+       width:100%;
+    }
+    .menu li{
+        
+        font-size: 10px;
+        margin: 0px;
+    }
+    .botao{
+        margin-left: 140px;
+        width: 90px;
+    }
+    .imagens{
+        margin-left: 100px;
+    }
+}
